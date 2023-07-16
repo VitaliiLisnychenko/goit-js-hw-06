@@ -7,4 +7,4 @@ inputEl.addEventListener('input', onInputChange);
 
 function onInputChange() {
     spanEl.textContent = inputEl.value || "Anonymous";
-}
+} 
