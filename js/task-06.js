@@ -10,6 +10,7 @@ validEl.addEventListener("blur", onBlur);
 function onBlur(event) {
   if (validEl.value.length === Number(validLengthEl)) {
      validEl.classList.add("valid");
+     validEl.classList.remove("invalid");
   } else {
     validEl.classList.add("invalid");
   }
